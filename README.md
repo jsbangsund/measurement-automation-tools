@@ -7,3 +7,4 @@ experimentController.py provides an example GUI that can easily be edited to all
 
 ## Other Resources
 Some of the Keithley control functions are borrowed from: https://github.com/AFMD/keithley-2636
+https://sweep-me.net/
