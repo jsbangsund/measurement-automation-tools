@@ -1,5 +1,5 @@
 # imports
-import visa
+#import visa
 import numpy as np
 import os
 import csv
@@ -16,11 +16,11 @@ import serial
 class VoltageController(Frame):
     def __init__(self,parent):
         #### USER DEFINED
-        self.arduinoAddress = 'COM5'
+        self.arduinoAddress = 'COM3'
         self.window_title = "Mass Flow Control"
         self.channels = ["A","B"]
         self.V_calibration = {i:None for i in self.channels} # initialize correction factor
-        self.show_keithley = True
+        self.show_keithley = False
         self.smu_address_default = ""
         self.smu_address = ""
         self.complianceV=5
