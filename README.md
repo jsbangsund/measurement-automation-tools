@@ -12,4 +12,6 @@ Also included are example .tsp scripts to automate diode sweeps using Keithley 2
 ## Other Resources
 Some of the Keithley control functions are borrowed from: https://github.com/AFMD/keithley-2636
 
-https://sweep-me.net/
+For excellent python-based freeware for measurement automation, see: https://sweep-me.net/
+
+Also see: https://github.com/ralph-group/pymeasure
